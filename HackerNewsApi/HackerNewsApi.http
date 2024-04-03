@@ -1,0 +1,6 @@
+@HackerNewsApi_HostAddress = http://localhost:5271
+
+GET {{HackerNewsApi_HostAddress}}/api/news/GetNewsPageArticles?fetchNewCount=20
+Accept: application/json
+
+###
