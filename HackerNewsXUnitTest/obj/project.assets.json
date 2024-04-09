@@ -6279,11 +6279,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Personal\\DevenderProj\\HackerNewsApi-master\\HackerNewsApi-master\\HackerNewsXUnitTest\\HackerNewsXUnitTest.csproj",
+      "projectUniqueName": "D:\\Personal\\DevenderProj\\HackerNewsApi\\HackerNewsApi\\HackerNewsXUnitTest\\HackerNewsXUnitTest.csproj",
       "projectName": "HackerNewsXUnitTest",
-      "projectPath": "D:\\Personal\\DevenderProj\\HackerNewsApi-master\\HackerNewsApi-master\\HackerNewsXUnitTest\\HackerNewsXUnitTest.csproj",
+      "projectPath": "D:\\Personal\\DevenderProj\\HackerNewsApi\\HackerNewsApi\\HackerNewsXUnitTest\\HackerNewsXUnitTest.csproj",
       "packagesPath": "C:\\Users\\123\\.nuget\\packages\\",
-      "outputPath": "D:\\Personal\\DevenderProj\\HackerNewsApi-master\\HackerNewsApi-master\\HackerNewsXUnitTest\\obj\\",
+      "outputPath": "D:\\Personal\\DevenderProj\\HackerNewsApi\\HackerNewsApi\\HackerNewsXUnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\123\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6300,8 +6300,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Personal\\DevenderProj\\HackerNewsApi-master\\HackerNewsApi-master\\HackerNewsApi\\HackerNewsApi.csproj": {
-              "projectPath": "D:\\Personal\\DevenderProj\\HackerNewsApi-master\\HackerNewsApi-master\\HackerNewsApi\\HackerNewsApi.csproj"
+            "D:\\Personal\\DevenderProj\\HackerNewsApi\\HackerNewsApi\\HackerNewsApi\\HackerNewsApi.csproj": {
+              "projectPath": "D:\\Personal\\DevenderProj\\HackerNewsApi\\HackerNewsApi\\HackerNewsApi\\HackerNewsApi.csproj"
             }
           }
         }

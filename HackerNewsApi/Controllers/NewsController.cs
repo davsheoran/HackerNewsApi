@@ -16,6 +16,7 @@ namespace HackerNewsApi
         [Route("GetNewsPageArticles")]
         public async Task<List<NewsArticle>> GetNewsPageArticlesAsync([FromQuery]int fetchNewCount)
         {
+            fetchNewCount = fetchNewCount == 0 ? 200: fetchNewCount;
             return await _apiRepo.GetNewsArticles(fetchNewCount);
         }
     }

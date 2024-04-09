@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9MuRI1Itsl1+tWD169SvAmthhEkd6QxqdIKQOL1YzO1Kl4fW5c5pnPTtsltr+DH+Fnfyfrw+EYnuNVckCkJNWQ==",
+  "dgSpecHash": "j5WBMt+p6fszrgZWDX3rEesnn5F4zT55VscHwoV8iy9rwsHvYSDVGl8jHvKRCy6pZtsqphTVN+VnR6BDxMTCZQ==",
   "success": true,
-  "projectFilePath": "D:\\Personal\\DevenderProj\\HackerNewsApi-master\\HackerNewsApi-master\\HackerNewsXUnitTest\\HackerNewsXUnitTest.csproj",
+  "projectFilePath": "D:\\Personal\\DevenderProj\\HackerNewsApi\\HackerNewsApi\\HackerNewsXUnitTest\\HackerNewsXUnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\123\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\123\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",

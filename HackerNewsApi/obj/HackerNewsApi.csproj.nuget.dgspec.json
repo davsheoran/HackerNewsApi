@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Personal\\DevenderProj\\HackerNewsApi-master\\HackerNewsApi-master\\HackerNewsApi\\HackerNewsApi.csproj": {}
+    "D:\\Personal\\DevenderProj\\HackerNewsApi\\HackerNewsApi\\HackerNewsApi\\HackerNewsApi.csproj": {}
   },
   "projects": {
-    "D:\\Personal\\DevenderProj\\HackerNewsApi-master\\HackerNewsApi-master\\HackerNewsApi\\HackerNewsApi.csproj": {
+    "D:\\Personal\\DevenderProj\\HackerNewsApi\\HackerNewsApi\\HackerNewsApi\\HackerNewsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal\\DevenderProj\\HackerNewsApi-master\\HackerNewsApi-master\\HackerNewsApi\\HackerNewsApi.csproj",
+        "projectUniqueName": "D:\\Personal\\DevenderProj\\HackerNewsApi\\HackerNewsApi\\HackerNewsApi\\HackerNewsApi.csproj",
         "projectName": "HackerNewsApi",
-        "projectPath": "D:\\Personal\\DevenderProj\\HackerNewsApi-master\\HackerNewsApi-master\\HackerNewsApi\\HackerNewsApi.csproj",
+        "projectPath": "D:\\Personal\\DevenderProj\\HackerNewsApi\\HackerNewsApi\\HackerNewsApi\\HackerNewsApi.csproj",
         "packagesPath": "C:\\Users\\123\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal\\DevenderProj\\HackerNewsApi-master\\HackerNewsApi-master\\HackerNewsApi\\obj\\",
+        "outputPath": "D:\\Personal\\DevenderProj\\HackerNewsApi\\HackerNewsApi\\HackerNewsApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\123\\AppData\\Roaming\\NuGet\\NuGet.Config",

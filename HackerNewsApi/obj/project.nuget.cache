@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8Nc5/bntSrYFGLGbsnR0AWRNvvY7f9eT0RcySPZ9S0mL3dR8+n81OOVOhfllxsnO6WLjAXNg25A3U8Pl287W4Q==",
+  "dgSpecHash": "9B960yIr+Gd2cHQN3mP39KSROrIBHcc32qkDSV7JyyXFulGBCY7fz9bGtil3RG7AJroJQ9GuK5ifm+i1GX8B3w==",
   "success": true,
-  "projectFilePath": "D:\\Personal\\DevenderProj\\HackerNewsApi-master\\HackerNewsApi-master\\HackerNewsApi\\HackerNewsApi.csproj",
+  "projectFilePath": "D:\\Personal\\DevenderProj\\HackerNewsApi\\HackerNewsApi\\HackerNewsApi\\HackerNewsApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\123\\.nuget\\packages\\microsoft.aspnet.webapi.client\\6.0.0\\microsoft.aspnet.webapi.client.6.0.0.nupkg.sha512",
     "C:\\Users\\123\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.2\\microsoft.aspnetcore.openapi.8.0.2.nupkg.sha512",
