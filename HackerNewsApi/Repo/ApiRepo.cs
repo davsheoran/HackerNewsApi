@@ -1,4 +1,5 @@
 using Microsoft.Extensions.Caching.Memory;
+using System.Collections.Generic;
 
 namespace HackerNewsApi
 {
@@ -27,10 +28,6 @@ namespace HackerNewsApi
                     };
                     _memoryCache.Set("NewsList", newsIdList, cacheExpiryOptions);
                 }
-                else
-                {
-                    return newsIdList;
-                }
             }
             return newsIdList;
         }
@@ -41,20 +38,21 @@ namespace HackerNewsApi
             _memoryCache.TryGetValue("NewsArticles", out List<NewsArticle>? newsArticles);
             if (newsArticles == null)
                 newsArticles = new List<NewsArticle>();
-            for (int i = 0; i < fetchNewCount; i++)
+
+            Parallel.ForEach(newsIdList.Take(fetchNewCount), new ParallelOptions() { MaxDegreeOfParallelism = 4 }, newsID =>
             {
-                var news = newsArticles.Find(u => u.Id == newsIdList[i]);
+                var news = newsArticles.Find(u => u.Id == newsID);
                 if (news == null)
                 {
-                    HttpResponseMessage response = await _httpClient.GetAsync("item/" + newsIdList[i] + ".json?print=pretty");
+                    var response = _httpClient.GetAsync("item/" + newsID + ".json?print=pretty").Result;
                     if (response.IsSuccessStatusCode)
                     {
-                        news = await response.Content.ReadAsAsync<NewsArticle>();
+                        news = response.Content.ReadAsAsync<NewsArticle>().Result;
                         newsArticles.Add(news);
                     }
                 }
                 ReturnnewsArticles.Add(news);
-            }
+            });
             var cacheExpiryOptions = new MemoryCacheEntryOptions
             {
                 AbsoluteExpiration = DateTime.Now.AddMinutes(60),

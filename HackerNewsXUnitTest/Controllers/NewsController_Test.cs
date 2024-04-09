@@ -15,6 +15,8 @@ public class NewsController_Test
 
         NewsController news=new NewsController(mockApiRepo.Object);
         var res=await news.GetNewsPageArticlesAsync(1);
+
         Assert.IsType<List<NewsArticle>>(res);
+        Assert.Equal(newsArticle,res);
     }
 }
